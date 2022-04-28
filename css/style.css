@@ -7,31 +7,43 @@
 
 header {
         /* Debug */
-        background-color: blue;
-        height: 500px;
+        background-color: lightslategray;
+       
 }
+.topheader {
+    /* Debug */
+    height: 80px;
+    background-color: #add8e6;
 
+}
 .flexcontainer {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 
 .column {
-    height: 100px;
-    background-color: #add8e6;
-    padding-top: 20px;
+    display: flex;
+    align-self: center;
     width: 100%;
-    
 }
 
 .col {
+    border: 1px dotted black;
     margin: auto;
     width: 60%;
+    display: flex;
+    align-items: center;
 
     /* Debug */
     background-color: goldenrod;
-    height: 50px;
+    height: 40px;
        
     
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
