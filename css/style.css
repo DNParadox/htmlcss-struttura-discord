@@ -9,7 +9,7 @@
 header {
         /* Debug */
         background-color: lightslategray;
-        height: 800px;
+        height: 500px;
 }
 
 .topheader {
@@ -48,18 +48,17 @@ a {
 .bottomheader {
      /* debug */
      background-color: darkblue;
-     height: 100%;
+     height: 420px;
 }
 
 .square {
     margin: auto;
     width: 50%;
-    display: flex;
-    align-items: center;
+
 
     /* Debug */
     background-color: violet;
-    height: 60%;
+    height: 90%;
     border: 2px dotted black;
 }
 
@@ -71,9 +70,9 @@ a {
 /* Inizio Main */
 
 .main {
-    height: 1000px;
+    height: 400px;
 }
-/* Color INIZIO */
+/* Common Color INIZIO */
 .grey {
     background-color: lightgrey;
 }
@@ -85,7 +84,7 @@ a {
     background-color: green;
 }
 
-/* Color FINE */
+/* Common Color FINE */
 .boxxone {
 
         margin: auto;
@@ -95,7 +94,7 @@ a {
     
         /* Debug */
         background-color: green;
-        height: 60%;
+        height: 90%;
         border: 2px dotted black;
 }
 
@@ -124,3 +123,5 @@ a {
         border: 2px dotted black;
 }
 
+
+/* Fine Main */
