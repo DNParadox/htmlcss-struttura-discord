@@ -125,3 +125,30 @@ a {
 
 
 /* Fine Main */
+
+/* Inizio Footer */
+
+footer {
+    height: 600px;
+    width: 100%;
+}
+
+.topfooter {
+    height: 400px;
+    background-color: black;
+}
+
+.footerbox1 {
+    background-color: #ef8080;
+    width: 40%;
+    height: 100%;
+    border: 1px dotted black;
+}
+
+.footerbox2 {
+    background-color: #20b1a9;
+    border: 1px dotted black;
+    width: 20%;
+    height: 100%;
+}
+
