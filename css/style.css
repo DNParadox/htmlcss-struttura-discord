@@ -5,11 +5,13 @@
     box-sizing: border-box;
 }
 
+/* header */
 header {
         /* Debug */
         background-color: lightslategray;
-       
+        height: 800px;
 }
+
 .topheader {
     /* Debug */
     height: 80px;
@@ -23,13 +25,10 @@ header {
 }
 
 .column {
-    display: flex;
-    align-self: center;
     width: 100%;
 }
 
 .col {
-    border: 1px dotted black;
     margin: auto;
     width: 60%;
     display: flex;
@@ -38,12 +37,90 @@ header {
     /* Debug */
     background-color: goldenrod;
     height: 40px;
-       
-    
+    border: 2px dotted black;
 }
 
 a {
     text-decoration: none;
     color: inherit;
+}
+
+.bottomheader {
+     /* debug */
+     background-color: darkblue;
+     height: 100%;
+}
+
+.square {
+    margin: auto;
+    width: 50%;
+    display: flex;
+    align-items: center;
+
+    /* Debug */
+    background-color: violet;
+    height: 60%;
+    border: 2px dotted black;
+}
+
+
+/* Fine Header */
+
+
+
+/* Inizio Main */
+
+.main {
+    height: 1000px;
+}
+/* Color INIZIO */
+.grey {
+    background-color: lightgrey;
+}
+.white {
+    background-color: white;
+}
+
+.green {
+    background-color: green;
+}
+
+/* Color FINE */
+.boxxone {
+
+        margin: auto;
+        width: 60%;
+        display: flex;
+        align-items: center;
+    
+        /* Debug */
+        background-color: green;
+        height: 60%;
+        border: 2px dotted black;
+}
+
+.box {
+    margin: auto;
+    width: 60%;
+    display: flex;
+    align-items: center;
+
+    /* Debug */
+    background-color: #1c90ff;
+    height: 100%;
+    border: 2px dotted black;
+
+}
+
+.box2 {
+    margin: auto;
+    width: 40%;
+    display: flex;
+    align-items: center;
+
+        /* Debug */
+        background-color: #febfcb;
+        height: 100%;
+        border: 2px dotted black;
 }
 
